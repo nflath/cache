@@ -1,6 +1,7 @@
-;; cache.el --- implementation of a hash table whose key-value pairs expire
+;;; cache.el --- implementation of a hash table whose key-value pairs expire
 
 ;; Author: Nathaniel Flath
+;; Version: 0.1
 
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -82,3 +83,4 @@ to the created hash table."
            (car cache)))
 
 (provide 'cache)
+;;; cache.el ends here
